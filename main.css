@@ -72,11 +72,27 @@ main {
 }
 .section2 div {
   margin: 0 auto 30px auto;
-  height: 70px;
+  padding-top: 10px;
   background-color: white;
   width: 18.75em;
 }
+.adlogo {
+  display: inline-block;
+  background-color: #616E7F;
+  height: 60px;
+  width: 50px;
+  vertical-align: bottom;
+}
+div .logotxt {
+  display: inline-block;
+  width:235px;
+  background-color: #616E7F;
+  height: 50px;
+  float: right;
+  margin-top: -10px;
+  margin-right: 5px;
 
+}
 .mainfoot {
   background-color: #E8F0F5;
   height: 11.875em;
