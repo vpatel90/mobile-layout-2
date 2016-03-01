@@ -7,8 +7,10 @@ main{
   padding-top: 9.688em;
   background-color: #344051;
 }
+.bgimg{
 
-main section{
+}
+main .section1{
   margin: auto;
   width:22.5em;
   color: white;
@@ -20,14 +22,37 @@ main section{
   font-size: 2em;
 }
 
-section div{
+.section1 div{
   width: 16.875em;
   margin:auto;
 }
 
-.button{
+.section1 .button{
   width: 60%;
   background-color: #1E8CBE;
   height: 3.25em;
   border: 10px solid #212934;
+}
+
+.downarrow{
+  margin: 13.25em auto auto auto;
+  height: 22px;
+  width: 52px;
+  background-color: white;
+}
+
+.section2{
+  margin-top: 8.375em;
+}
+.section2 div{
+  margin: 0 auto 30px auto;
+  height: 70px;
+  background-color: white;
+  width: 18.75em;
+}
+
+.mainfoot{
+  background-color: #E8F0F5;
+  height: 11.875em;
+  margin-top: 45px;
 }
