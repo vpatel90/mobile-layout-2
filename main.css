@@ -1,0 +1,33 @@
+nav{
+  background-color: #118BC0;
+  height: 50px;
+}
+
+main{
+  padding-top: 9.688em;
+  background-color: #344051;
+}
+
+main section{
+  margin: auto;
+  width:22.5em;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.heading{
+  font-size: 2em;
+}
+
+section div{
+  width: 16.875em;
+  margin:auto;
+}
+
+.button{
+  width: 60%;
+  background-color: #1E8CBE;
+  height: 3.25em;
+  border: 10px solid #212934;
+}
