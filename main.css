@@ -10,7 +10,7 @@ main{
 .bgimg{
 
 }
-main .section1{
+.section1{
   margin: auto;
   width:22.5em;
   color: white;
@@ -29,9 +29,13 @@ main .section1{
 
 .section1 .button{
   width: 60%;
+  border: 10px solid #212934;
+}
+.button{
+  width:12.93em;
   background-color: #1E8CBE;
   height: 3.25em;
-  border: 10px solid #212934;
+  margin: auto;
 }
 
 .downarrow{
@@ -55,4 +59,32 @@ main .section1{
   background-color: #E8F0F5;
   height: 11.875em;
   margin-top: 45px;
+}
+
+.main2{
+  padding: 30px 0;
+  background-color: #D1D3D7;
+}
+
+.main2 div{
+  height:13.5em;
+  margin: 0 11px 30px 11px;
+  background-color: white;
+}
+
+.lastdiv{
+  padding: 6.25em 0 20px 0;
+  background-color: #E8F0F5;
+}
+
+footer{
+  padding-top: 20px;
+  background-color: black;
+  color: white;
+}
+.botlogo{
+  height: 25px;
+  width: 134px;
+  margin: 21px auto;
+  background-color: white;
 }
