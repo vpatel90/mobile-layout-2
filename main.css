@@ -106,11 +106,34 @@ div .logotxt {
 }
 
 .main2 div {
-  height:13.5em;
+  padding: 20px 0;
   margin: 16px 11px;
   background-color: white;
 }
 
+.featlogo {
+  display: block;
+  background-color: #C7D2D8;
+  height: 64px;
+  width: 64px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+div .feature {
+  background-color: #C7D2D8;
+  height: 22px;
+  width: 410px;
+  margin: auto;
+  margin-bottom: 18px;
+}
+div .featdis {
+  background-color: #C7D2D8;
+  height: 48px;
+  width: 410px;
+  margin: auto;
+  margin-bottom: 18px;
+}
 .lastdiv {
   padding: 6.25em 0 20px 0;
   background-color: #E8F0F5;
