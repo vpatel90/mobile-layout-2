@@ -61,17 +61,22 @@ main {
 .section1 div {
   width: 16.875em;
   margin:auto;
+  margin-bottom: 25px;
 }
 
 .section1 .button {
-  width: 60%;
+  width: 50%;
   border: 10px solid #212934;
 }
 .button {
-  width:12.93em;
+  font-family: sans-serif;
+  font-size: 20px;
+  width:200px;
   background-color: #1E8CBE;
-  height: 3.25em;
   margin: auto;
+  padding: 15px;
+  color:white;
+  text-align: center;
 }
 
 .downarrow {
