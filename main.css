@@ -93,25 +93,34 @@ main {
 .section2 div {
   margin: 0 auto 30px auto;
   padding-top: 10px;
-  background-color: white;
   width: 18.75em;
 }
 .adlogo {
   display: inline-block;
-  background-color: #616E7F;
+  background-color: white;
   height: 60px;
   width: 50px;
   vertical-align: bottom;
 }
 div .logotxt {
+  color: white;
+  font-family: sans-serif;
   display: inline-block;
   width:235px;
-  background-color: #616E7F;
   height: 50px;
   float: right;
   margin-top: -10px;
   margin-right: 5px;
+}
+.logotxt h3, .logotxt p {
+  position: relative;
+  top: -20px;
+}
 
+.logotxt p{
+  color: #D6D6D1;
+  font-size: 14px;
+  margin-top: -10px;
 }
 .mainfoot {
   background-color: #E8F0F5;
