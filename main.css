@@ -166,6 +166,16 @@ div .logotxt {
   margin-bottom: 10px;
 }
 
+.main2svg {
+  height: 34px;
+  width: 64px;
+  margin: 15px auto;
+}
+
+.main2path {
+  fill: #547C98;
+}
+
 div .feature {
   text-align: center;
   font-family: sans-serif;
@@ -204,10 +214,12 @@ footer {
 }
 .botlogo {
   display: block;
-  height: 25px;
   width: 134px;
   margin: auto;
-  background-color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  color:#E3E3E3;
+
 }
 
 ul {
