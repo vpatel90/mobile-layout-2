@@ -1,8 +1,11 @@
-body{
-  margin: 0;
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
 }
 nav {
   background-color: #118BC0;
+  text-align: left;
 }
 .logo {
   display: inline-block;
@@ -14,23 +17,22 @@ nav {
   vertical-align: middle;
 }
 
-.logo .svgpath {
+.logo path {
   fill: #118BC0;
 }
-.svgpath {
+path {
   fill: white;
 }
 .logo2 {
   display: inline-block;
   width: 120px;
   margin-left: 11px;
-  vertical-align: middle;
+    vertical-align: middle;
 }
 .logo2 p {
   margin: 14px 0;
   vertical-align: middle;
   color: #FBEEEB;
-  font-family: sans-serif;
   font-size: 18px;
 }
 .logo2 p span {
@@ -39,7 +41,6 @@ nav {
 .login {
   text-align: center;
   color: #FEF2E8;
-  font-family: sans-serif;
   font-size: 13px;
   padding-top: 18px;
   background-color: #0070A4;
@@ -47,29 +48,24 @@ nav {
   width: 77px;
   float: right;
 }
-
-main {
-  padding-top: 9.688em;
-}
 .main1 {
+  padding-top: 9.688em;
   background: url(graphics/background.webp);
   background-position: center;
 }
 .section1 {
-  margin: auto;
+  display: inline-block;
   width:22.5em;
   color: white;
-  font-family: sans-serif;
-  text-align: center;
 }
 
 .heading {
   font-size: 2em;
 }
 
-.section1 div {
+.section1 p:last-of-type {
   width: 16.875em;
-  margin:auto;
+  margin: auto;
   margin-bottom: 25px;
 }
 
@@ -78,7 +74,6 @@ main {
   border: 10px solid rgba(0,0,0,.75);
 }
 .button {
-  font-family: sans-serif;
   font-size: 20px;
   width:200px;
   background-color: #1E8CBE;
@@ -108,7 +103,6 @@ main {
   display: inline-block;
   height: 50px;
   width: 40px;
-  vertical-align: bottom;
 }
 
 .pressed .adlogo{
@@ -117,7 +111,6 @@ main {
 
 div .logotxt {
   color: white;
-  font-family: sans-serif;
   display: inline-block;
   width:235px;
   height: 50px;
@@ -136,7 +129,6 @@ div .logotxt {
   margin-top: -10px;
 }
 .mainfoot {
-  font-family: sans-serif;
   font-size: 22px;
   text-align: center;
   background-color: #E8F0F5;
@@ -178,7 +170,6 @@ div .logotxt {
 
 div .feature {
   text-align: center;
-  font-family: sans-serif;
   color: #405F73;
   font-size: 20px;
   width: 410px;
@@ -187,7 +178,6 @@ div .feature {
 }
 div .featdis {
   text-align: center;
-  font-family: sans-serif;
   color: black;
   height: 48px;
   width: 405px;
@@ -199,7 +189,6 @@ div .featdis {
 }
 .lastdiv p {
   text-align: center;
-  font-family: sans-serif;
   color: #3F3F6A;
   font-size: 24px;
 }
@@ -218,7 +207,6 @@ footer {
   height: 20px;
   margin: auto;
   margin-top: 30px;
-  font-family: sans-serif;
   font-size: 14px;
   color:#E3E3E3;
   background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjciIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxMjcgMTEiPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik00Ni4zNDQuNjk0Yy0zLjE3IDAtNS4yMjMgMi4yNDMtNS4yMjMgNC42NnYuMjk1YzAgMi4zNzUgMi4wNTUgNC42NTcgNS4yMjQgNC42NTcgMy4xODIgMCA1LjIzNi0yLjI4IDUuMjM2LTQuNjU4di0uMjk2YzAtMi40MTctMi4wNTQtNC42Ni01LjIzNi00LjY2em0zLjU0NCA0LjljMCAxLjczNC0xLjI2MyAzLjMwNS0zLjU0NCAzLjMwNS0yLjI4MiAwLTMuNTMtMS41Ny0zLjUzLTMuMzA1VjUuMzhjMC0xLjczIDEuMjQ4LTMuMjc0IDMuNTMtMy4yNzQgMi4yOCAwIDMuNTQ0IDEuNTQzIDMuNTQ0IDMuMjc0di4yMTV6TTYuMDUyIDEuMDE4TDEuMjIgOS45NmgxLjc3TDQuMTMzIDcuNzRoNS4yNWwxLjE4MiAyLjIxN2gxLjhMNy40NSAxLjAxNkg2LjA1ek00Ljc2NCA2LjUyTDYuNzEgMi43NjNsMi4wMTQgMy43NmgtMy45NnptMTguMzQtLjI1NGMwIDEuNjUyLS44NzMgMi42MzMtMi45OTQgMi42MzMtMi4wNjcgMC0zLjE1NS0uOTgtMy4xNTUtMi42MzR2LTUuMjVIMTUuMjlWNi4yNGMwIDIuMzI0IDEuNDkgNC4wNjggNC43IDQuMDY4IDMuMzcgMCA0Ljc5Mi0xLjg1MyA0Ljc5Mi00LjA2OHYtNS4yMmgtMS42OHY1LjI0OHptNS40MzctMy44NTNoMy45MDhWOS45NmgxLjY3OFYyLjQxMmgzLjkwN1YxLjAxNkgyOC41NHYxLjM5N3ptMzMuODg3IDQuNzRsLS40MTUuNzUtLjQxNy0uNzUtMy41My02LjEzNmgtMi4zMjJWOS45NmgxLjYzN1YyLjg4bC40NDMuNzc4IDMuNzA2IDYuMjk4aC44MTdsMy43NDctNi4yOTguNDQzLS43NzhWOS45NmgxLjY3OFYxLjAxNmgtMi4yOTdsLTMuNDkgNi4xMzV6TTc2LjM5IDEuMDE2TDcxLjU1OCA5Ljk2aDEuNzczbDEuMTQtMi4yMThoNS4yNWwxLjE4MyAyLjIxN2gxLjhMNzcuNzkgMS4wMTZoLTEuNHpNNzUuMTAzIDYuNTJsMS45NDctMy43NTggMi4wMTMgMy43NmgtMy45NnptOC43OC00LjEwN2gzLjkwN1Y5Ljk2aDEuNjhWMi40MTJoMy45MDVWMS4wMTZoLTkuNDkydjEuMzk3em0xMi4zMTMgMGgzLjkwNlY5Ljk2aDEuNjhWMi40MTJoMy45MDVWMS4wMTZoLTkuNDl2MS4zOTd6bTEzLjYyNS0uNTV2OC4wOThoMS42NTJWMS4wMmgtLjcxYzAgLjQ4LS4yNy44NDYtLjk0Mi44NDZ6TTEyMS4xNTIgOC45Yy0yLjQ5NiAwLTMuODU0LTEuNTg0LTMuODU0LTMuMjc1di0uMTc1YzAtMS43MDUgMS4zNDUtMy4zNDIgMy43My0zLjM0MiAxLjYgMCAyLjc4LjY5NiAzLjU4OCAxLjQzNmwxLjA0Ny0xLjA2Yy0uOTI3LS45OTUtMi42NDYtMS43ODgtNC41NC0xLjc4OC0zLjI3MyAwLTUuNTE4IDIuMjgyLTUuNTE4IDQuN3YuMjk2YzAgMi40MTYgMi4wNTYgNC42MTcgNS40MzggNC42MTcgMS45NzYgMCAzLjY0LS44MTcgNC42Mi0xLjc4NWwtMS4wMS0xLjA2Yy0uNzc0LjcyNC0yLjAxIDEuNDM2LTMuNSAxLjQzNnpNNDcuNDUgMy44MDZjLS4zMDMtLjE5Ni0uNzA3LS4xMDYtLjkwNC4xOTdsLTEuNTMgMi4zNjhjLS4xOTcuMzEtLjExLjcxNC4xOS45MS4zMDMuMTk0LjcwNy4xMDUuOTA0LS4xOThsMS41My0yLjM3MmMuMTk3LS4zMDMuMTEyLS43MS0uMTktLjkwNHoiLz48L3N2Zz4=");
@@ -235,7 +223,6 @@ ul {
 
 ul li {
   display:inline-block;
-  font-family: sans-serif;
   font-size: 10px;
   margin: 0 8px;
 }
