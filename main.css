@@ -123,9 +123,13 @@ div .logotxt {
   margin-top: -10px;
 }
 .mainfoot {
+  font-family: sans-serif;
+  font-size: 22px;
+  text-align: center;
   background-color: #E8F0F5;
-  height: 11.875em;
+  padding: 25px;
   margin-top: 45px;
+  color: #323F5F;
 }
 
 .main2 {
