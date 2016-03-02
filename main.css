@@ -92,8 +92,8 @@ main {
   display: block;
   margin: 13.25em auto auto auto;
   height: 22px;
-  width: 52px;
-  background-color: white;
+  width: 50px;
+  transform:rotate(270deg);
 }
 
 .section2 {
@@ -151,7 +151,7 @@ div .logotxt {
   background-color: #D1D3D7;
 }
 
-.main2 div {
+.main2 .outsidediv {
   padding: 20px 0;
   margin: 16px 11px;
   background-color: white;
@@ -161,7 +161,9 @@ div .logotxt {
   background-color: #C7D2D8;
   height: 64px;
   width: 64px;
+  border-radius: 32px;
   margin: auto;
+  margin-bottom: 10px;
 }
 
 div .feature {
@@ -171,7 +173,7 @@ div .feature {
   font-size: 20px;
   width: 410px;
   margin: 0 auto;
-  margin-bottom: -15px;
+  margin-bottom: 10px;
 }
 div .featdis {
   text-align: center;
