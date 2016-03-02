@@ -149,22 +149,24 @@ div .logotxt {
   height: 64px;
   width: 64px;
   margin: auto;
-  margin-bottom: 10px;
 }
 
 div .feature {
-  background-color: #C7D2D8;
-  height: 22px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #405F73;
+  font-size: 20px;
   width: 410px;
-  margin: auto;
-  margin-bottom: 18px;
+  margin: 0 auto;
+  margin-bottom: -15px;
 }
 div .featdis {
-  background-color: #C7D2D8;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
   height: 48px;
-  width: 410px;
+  width: 405px;
   margin: auto;
-  margin-bottom: 18px;
 }
 .lastdiv {
   padding: 6.25em 0 20px 0;
