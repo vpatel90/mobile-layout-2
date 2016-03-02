@@ -1,3 +1,6 @@
+body{
+  margin: 0;
+}
 nav {
   background-color: #118BC0;
 }
@@ -47,11 +50,10 @@ nav {
 
 main {
   padding-top: 9.688em;
-  background-color: #344051;
-  background-image: url(graphics/)
 }
-.bgimg{
-
+.main1 {
+  background: url(graphics/background.webp);
+  background-position: center;
 }
 .section1 {
   margin: auto;
@@ -73,7 +75,7 @@ main {
 
 .section1 .button {
   width: 50%;
-  border: 10px solid #212934;
+  border: 10px solid rgba(0,0,0,.75);
 }
 .button {
   font-family: sans-serif;
