@@ -7,7 +7,15 @@ nav {
   height: 31px;
   width: 31px;
   margin-left: 16px;
+  border-radius: 15.5px;
   background-color: white;
+}
+
+.logo .svgpath {
+  fill: #118BC0;
+}
+.svgpath {
+  fill: white;
 }
 .logo2 {
   display: inline-block;
@@ -42,6 +50,7 @@ nav {
 main {
   padding-top: 9.688em;
   background-color: #344051;
+  background-image: url(graphics/)
 }
 .bgimg{
 
@@ -97,11 +106,15 @@ main {
 }
 .adlogo {
   display: inline-block;
-  background-color: white;
-  height: 60px;
-  width: 50px;
+  height: 50px;
+  width: 40px;
   vertical-align: bottom;
 }
+
+.pressed .adlogo{
+  transform:scale(-1,1);
+}
+
 div .logotxt {
   color: white;
   font-family: sans-serif;
